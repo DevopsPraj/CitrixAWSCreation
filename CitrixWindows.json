@@ -6,9 +6,8 @@
       "Type" : "AWS::EC2::Instance",
       "Properties" : {
         "ImageId" : "ami-47897a3f",
-        "InstanceType" : "t1.micro",
-        "KeyName" : "CitrixUser",
-        "Tag" : "Citrix1",
+        "InstanceType" : "t2.micro",
+        "KeyName" : "WindowsKey",
         "BlockDeviceMappings" : [
           {
             "DeviceName" : "/dev/sdm",
