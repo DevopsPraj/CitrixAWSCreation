@@ -1,5 +1,5 @@
 {
-  "AWSTemplateFormatVersion" : "2017-10-04",
+  "AWSTemplateFormatVersion" : "2010-09-09",
   "Description" : "For creating a Windows Instance",
   "Resources" : {
     "MyEC2Instance" : {
